@@ -26,7 +26,10 @@ Additional Notes:
     and moj_run.bat files. In moj_compile, you need to change lines 13 and 14 to where your JDK home and MOJO home  
 	directories are, respectively. For moj_run, you need to change lines 13 and 19. In line 13, set your MOJO home  
 	directory. In line 19, set the directory where your JRE is to run Java files.  
-	  
+	
+  - You also need to change the path of San Diego shape file. Change the String from  
+	"D:\\Data\\Supervisor_Districts.shp" to the file location where you have it saved.  
+	
   - Drink responsibly! Know your limits and call a taxi/Uber/Lyft/friend. The worst time and place to find out that 
     you're not invincible is drunk behind the wheel. 
 	
