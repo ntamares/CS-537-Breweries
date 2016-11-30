@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<tocdata>
+<item name="Welcome" url="mojoe_index.htm" />
+<book name="Information Resources" >
+  <item name="FAQs" url="faqs.html" />
+  <item name="Samples" url="Samples.htm" />
+  <item name="Getting started" url="Getting_Started.htm" />
+  <item name="Supported data formats" url="supported_image_formats.htm" />
+  <item name="Understanding map projections" url="understanding_map_proj.htm" />
+  <item name="Utilities" url="utilities.htm" />
+  <item name="Copyright" url="copyright.htm" />
+</book>
+<book name="MapObjects--Java API Reference" >
+  <item name="JavaDoc" url="javadoc/overview-summary.html" />
+</book>
+<book name="MapObjects--Java Model" >
+  <item name="Instructions for reading diagrams" url="omds/reading_the_omds.htm" />
+  <item name="UML Class Diagram Poster" url="UML_class_diagram.htm" />
+  <book name="Overview of MapObjects--Java Subsystems" >
+    <book name="Map Beans" >
+      <item name="Map Beans objects" url="omds/map_beans/map_beans.htm" />
+      <item name="Beans" url="omds/map_beans/mb_beans.htm" />
+      <item name="Map" url="omds/map_beans/mb_map.htm" />
+      <item name="Table of Contents" url="omds/map_beans/mb_table_of_contents.htm" />
+      <item name="AcetateLayers" url="omds/map_beans/mb_acetatelayers.htm" />
+      <item name="Tools" url="omds/map_beans/mb_tools.htm" />
+      <item name="RubberBands" url="omds/map_beans/mb_rubberbands.htm" />
+      <item name="Toolbars" url="omds/map_beans/mb_toolbars.htm" />
+      <item name="QueryBuilder" url="omds/map_beans/mb_querybuilder.htm" />
+      <item name="Other query dialog boxes" url="omds/map_beans/mb_other_query_dialogs.htm" />
+      <item name="Other dialog boxes" url="omds/map_beans/mb_other_dialogs.htm" />
+      <item name="PageLayout" url="omds/map_beans/mb_pagelayout.htm" />
+    </book>
+    <book name="Map Internals" >
+      <item name="Map Internal objects" url="omds/map_internals/map_internals_objects.htm" />
+      <item name="Map core interfaces" url="omds/map_internals/map_core.htm" />
+      <item name="Display" url="omds/map_internals/mi_display.htm" />
+      <item name="Layers" url="omds/map_internals/mi_layers.htm" />
+      <item name="Layer implementations" url="omds/map_internals/mi_layer_implementations.htm" />
+      <item name="Layer extensions" url="omds/map_internals/mi_layer_extensions.htm" />
+      <item name="FeatureLayer" url="omds/map_internals/mi_feature_layers.htm" />
+      <item name="Renderers" url="omds/map_internals/mi_renderers.htm" />
+      <item name="Renderer implementations" url="omds/map_internals/mi_renderer_implementations.htm" />
+      <item name="Symbols" url="omds/map_internals/mi_symbols.htm" />
+      <item name="GraphicsLayer" url="omds/map_internals/mi_graphicslayer.htm" />
+      <item name="ImageServer layers" url="omds/map_internals/mi_imageserver_layers.htm" />
+    </book>
+    <book name="Data Access" >
+      <item name="Data access objects" url="omds/data_access/da_data_access_objects.htm" />
+      <item name="Content API" url="omds/data_access/da_content.htm" />
+      <item name="Content API implementations" url="omds/data_access/da_content_implementations.htm" />
+      <item name="Datasets" url="omds/data_access/da_datasets.htm" />
+      <item name="Dataset implementations" url="omds/data_access/da_dataset_implementations.htm" />
+      <item name="File system datasets" url="omds/data_access/da_file_system_datasets.htm" />
+      <item name="Shapefiles" url="omds/data_access/da_shapefiles.htm" />
+    </book>
+    <book name="Data Internals" >
+      <item name="Data internals" url="omds/data_internals/di_data_internals.htm" />
+      <item name="Data" url="omds/data_internals/di_data.htm" />
+      <item name="Data implementations" url="omds/data_internals/di_data_implementations.htm" />
+      <item name="Geometry" url="omds/data_internals/di_geometry.htm" />
+      <item name="Geometry implementations" url="omds/data_internals/di_geometry_implementations.htm" />
+      <item name="Queries" url="omds/data_internals/di_queries.htm" />
+      <item name="Query implementations" url="omds/data_internals/di_query_implementations.htm" />
+      <item name="Spatial index" url="omds/data_internals/di_spatial_index.htm" />
+      <item name="Memory cache" url="omds/data_internals/di_memory_cache.htm" />
+      <item name="Tile cache" url="omds/data_internals/di_tile_cache.htm" />
+    </book>
+  </book>
+</book>
+<book name="Release Notes" >
+  <item name="What's new in version 2.0" url="what_s_new_in_version_2.htm" />
+  <item name="Known issues" url="known_issues.htm" />
+</book>
+
+</tocdata>

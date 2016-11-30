@@ -9,11 +9,12 @@ This project will show a map of San Diego with several different craft beer brew
 Upon clicking on one of the breweries,  a window will pop up containing information about that certain breweries   
 such as location, types of beer that they carry, and the company motto/logo.
 
-Breweries Photos folder contains pictures of the breweries, logos, area, etc.
-
-Data folder contains: .shp, .shx, .dbf, and .csv files  
-
+Additional Folders:
+Breweries Photos folder contains pictures of the breweries, logos, area, etc.  
+Data folder contains: .shp, .shx, .dbf, and .csv files.   
 Icons folder contains custom icons used in the map.
+Documentaion folder contains documentation files. To access documentation for esri/MOJO, go to the directory  
+Documentation/MapObjects/javadoc and open up index.html.
 
 To Run Using Windows Command Prompt:  
 Change working directory to \CS-537-Breweries\src  
