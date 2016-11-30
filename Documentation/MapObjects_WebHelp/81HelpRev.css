@@ -1,0 +1,478 @@
+/*=(===============================================================)*/
+
+/*=(===============================================================)*/
+/*=(Created with RoboEditor.)=======================================*/
+/*=(===============================================================)*/
+
+body {
+	color: #000000;
+	background: #FFFFFF;
+	font-size: 72%;
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	margin-left: 4%;
+}
+
+a:link {
+	color: #000080;
+}
+
+a:visited {
+	color: #800080;
+}
+
+a:active {
+	color: #808080;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
+A.gloss:LINK {
+	color: #000080;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	/*begin!kadov{{*/ text-decoration: none none none; /*}}end!kadov*/ 
+}
+
+A.gloss:VISITED {
+	color: #000080;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	/*begin!kadov{{*/ text-decoration: none none none; /*}}end!kadov*/ 
+}
+
+A.gloss:HOVER {
+	color: #ff0000;
+}
+
+A.popup:link {
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	color: #0000ff;
+	/*begin!kadov{{*/ text-decoration: none none none; /*}}end!kadov*/ 
+}
+
+A.popup:visited {
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	color: #0000ff;
+	/*begin!kadov{{*/ text-decoration: none none none; /*}}end!kadov*/ 
+}
+
+A.popup:hover {
+	x-text-underline: normal;
+	/*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ 
+}
+
+A.navbar:link {
+	font: bold 90% Verdana Geneva Arial Helvetica sans-serif;
+	color: #ffffff;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	/*begin!kadov{{*/ text-decoration: none none none; /*}}end!kadov*/ 
+}
+
+A.navbar:visited {
+	font: bold 90% Verdana Geneva Arial Helvetica sans-serif;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	color: #ffffff;
+	/*begin!kadov{{*/ text-decoration: none none none; /*}}end!kadov*/ 
+}
+
+A.navbar:hover {
+	color: #ffff00;
+	x-text-underline: normal;
+	/*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ 
+}
+
+h1 {
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	margin-bottom: .5em;
+	margin-top: -.01em;
+	font-size: 18pt;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-h1 {
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	font-size: 18pt;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+h1.blue {
+	color: #000080;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-h1-Cblue {
+	color: #000080;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	font-weight: bold;
+	margin-top: 1.1 em;
+	margin-bottom: .5 em;
+	font-size: 14pt;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-h2 {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	font-weight: bold;
+	font-size: 14pt;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+h2.callout {
+	margin-left: .5em;
+	margin-right: .5em;
+	color: #000080;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-h2-Ccallout {
+	color: #000080;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+.glossheading {
+	border-top: solid;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-Cglossheading {
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+h3 {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	margin-top: .6em;
+	margin-bottom: .6em;
+	font-size: 12pt;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-h3 {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	font-size: 12pt;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+P {
+	font-family: Verdana, Arial, Helvetica, Helvetica, Helvetica, "Sans Serif";
+	margin-top: .6em;
+	margin-bottom: .6em;
+	margin-left: 0pt;
+	font-size: 10pt;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-P {
+	font-family: Verdana, Arial, Helvetica, Helvetica, Helvetica, "Sans Serif";
+	font-size: 10pt;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+p.callout {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	margin-top: .6em;
+	margin-bottom: .6em;
+	color: #000080;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-p-Ccallout {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	color: #000080;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+p.reltopics {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	margin-top: 0;
+	margin-bottom: 1 em;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-p-Creltopics {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+p.arcinfo {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	font-size: 90%;
+	font-weight: bold;
+	color: #008000;
+	margin-top: 0pt;
+	text-align: Right;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-p-Carcinfo {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	font-size: 90%;
+	font-weight: bold;
+	color: #008000;
+	text-align: Right;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+span.arcinfo {
+	font-size: 82%;
+	font-style: italic;
+}
+
+ol {
+	margin-top: .5em;
+	margin-bottom: 0em;
+	margin-left: 2em;
+}
+
+ul {
+	margin-top: .6em;
+	margin-bottom: 0em;
+	margin-left: 1.5em;
+	list-style-type: disc;
+}
+
+li {
+	margin-bottom: .7em;
+	margin-left: 0em;
+}
+
+dd {
+	margin-bottom: 0em;
+	margin-left: 1.5em;
+}
+
+dt {
+	margin-top: 2em;
+	font-weight: bold;
+}
+
+table {
+	font-family: Verdana, Arial, Helvetica, Helvetica, "Sans Serif";
+	font-size: 100%;
+	margin-top: .75em;
+	margin-bottom: .75em;
+	padding: 5pt 8pt;
+}
+
+tr {
+	vertical-align: top;
+}
+
+td {
+	background: #ECF3FF;
+	vertical-align: top;
+}
+
+td.info {
+	background: #EEEEEE;
+	color: #000000;
+}
+
+th {
+	text-align: left;
+	background: #dddddd;
+	vertical-align: bottom;
+}
+
+P.Preformatted {
+	line-height: normal;
+	x-text-tab-stops: repeat 1in;
+	white-space: nowrap;
+	font-size: smaller;
+	font-family: monospace;
+	margin-bottom: 1.5em;
+	margin-top: 0em;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-P-CPreformatted {
+	line-height: normal;
+	x-text-tab-stops: repeat 1in;
+	white-space: nowrap;
+	font-size: smaller;
+	font-family: monospace;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+A.expandspot {
+	cursor: hand;
+	color: #008000;
+	font-style: normal;
+}
+
+SPAN.expandtext {
+	color: #ff0000;
+	font-weight: normal;
+	font-style: italic;
+}
+
+A.dropspot {
+	font-style: italic;
+	color: #008000;
+	cursor: hand;
+}
+
+A.glossterm {
+	cursor: hand;
+	font-size: small;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+}
+
+SPAN.glosstext {
+	color: #0000ff;
+	font-weight: normal;
+	font-style: italic;
+}
+
+P.GlossaryTerm {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 100%;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-P-CGlossaryTerm {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 100%;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+P.GlossaryText {
+	font-size: 100%;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-P-CGlossaryText {
+	font-size: 100%;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+H4 {
+	font-size: 80%;
+	font-family: Verdana, Arial, Helvetica, "Sans Serif";
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-H4 {
+	font-size: 80%;
+	font-family: Verdana, Arial, Helvetica, "Sans Serif";
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+P.Code {
+	font-family: "Lucida Console", Lucida, Mono;
+	margin-left: 0.25in;
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-P-CCode {
+	font-family: "Lucida Console", Lucida, Mono;
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+H5 {
+	font-size: 75%;
+	font-family: Verdana, Arial, Helvetica, "Sans Serif";
+}
+
+/*=(Generated Code)=================================================*/
+/*=(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)===================*/
+/*begin!kadov{{=====================================================*/ 
+LI.kadov-H5 {
+	font-size: 75%;
+	font-family: Verdana, Arial, Helvetica, "Sans Serif";
+}
+/*}}end!kadov=======================================================*/ 
+
+
+
+OL,
+UL {
+}
+
+
+/*=(===============================================================)*/

@@ -1,0 +1,236 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<!--(==============================================================)-->
+<!--(Document created with RoboEditor. )============================-->
+<!--(==============================================================)-->
+
+<head>
+
+<title>Known issues</title>
+
+<!--(Meta)==========================================================-->
+
+<meta http-equiv=content-type content="text/html; charset=windows-1252">
+<meta name=generator content="RoboHELP by eHelp Corporation - www.ehelp.com">
+<meta name=generator-major-version content=0.1>
+<meta name=generator-minor-version content=1>
+<meta name=filetype content=kadov>
+<meta name=filetype-version content=1>
+<meta name=page-count content=1>
+<meta name=layout-height content=1146>
+<meta name=layout-width content=928>
+
+
+<!--(Links)=========================================================-->
+
+ <link rel='stylesheet' href='81HelpRev_ns.css'>
+<script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='81HelpRev.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+img_whs1 {border: none; width: 875px; height: 33px; float: none; border-style: none; border-style: none;}
+p.whs2 {font-weight: bold;}
+p.whs3 {text-align: right;}
+img_whs4 {border: none; width: 47px; height: 19px; float: none; border-style: none; border-style: none;}
+-->
+</style>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+  div.WebHelpPopupMenu {position:absolute; left:0px; top:0px; z-index:4; visibility:hidden;}
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+
+<!--(Body)==========================================================-->
+
+
+<body>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Release Notes\nKnown issues");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("mapobjects_help.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<h1><img src="MO-Java-Banner.gif" x-maintain-ratio="TRUE" width="875px" height="33px" border="0" class="img_whs1"><br>
+Known issues</h1>
+
+<p class="whs2">Internationalization issues: Potential problems 
+ reading shapefiles on different locales</p>
+
+<p>Very often, a shapefile's dBASE file will contain a specific language 
+ id, other than the &quot;default&quot; language id. This will reflect 
+ the system locale that the dBASE file was created on. MapObjects—Java 
+ uses this id to properly encode string data from that dBASE file. Also, 
+ shapefiles may have an associated .cpg file that contains the proper encoding 
+ information for that shapefile. MapObjects—Java applications will read 
+ the .cpg file for correct encoding and can also write this .cpg file during 
+ a shapefile creation process to reflect the locale it was created on.</p>
+
+<p>Problems with reading shapefiles in a MapObjects—Java application could 
+ occur if the shapefile's language id is not set, which tells the system 
+ to encode string data using the current system locale, and a .cpg file 
+ is not present for that shapefile. Incorrect display of data and/or labels 
+ may result from this condition, and it is possible that some shapefiles 
+ may not be able to be opened at all.</p>
+
+<p>&nbsp;</p>
+
+<p class="whs2">Resources are not closed, resulting in &quot;Too 
+ many open files&quot; error when running the Tutorial sample on Macintosh</p>
+
+<p>The default number of file descriptors in Mac OS X is 256. Other UNIX 
+ platforms may have the same problem if they have the same limit. A work-around 
+ is to increase the limit by adding this command:</p>
+
+<p>limit descriptors 1024</p>
+
+<p>This should be done in the shell window immediately before entering 
+ &quot;./StartTutorial&quot;. &nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-weight: bold;"><B>Issue with ArcSDE 8.3 and Oracle servers</B></span> 
+ </p>
+
+<p>When reading BLOB fields larger than 60k from ArcSDE, an &quot;com.esri.sde.sdk.client.SeException: 
+ NETWORK I/O OPERATION FAILED&quot; error might occur. This problem is 
+ taken care of in Java SDK API for ArcGIS 9.0.</p>
+
+<p class="whs2">&nbsp;</p>
+
+<p class="whs2">Using ArcSDE 8.3 and Informix connection 
+ issue</p>
+
+<p>Accessing a layer or a table when connected to an ArcSDE 8.3 and Informix 
+ server may hang. This problem should be taken care of in Java SDK API 
+ for ArcGIS 9.0.</p>
+
+<p class="whs2">&nbsp;</p>
+
+<p class="whs2">Issue with null geometry layer in ArcSDE</p>
+
+<p>Accessing a feature in an ArcSDE layer with null geometry throws NullPointerException. 
+ This problem is fixed in Java SDK API for ArcGIS 9.0.</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-weight: bold;"><B>Duplicate JAR files in classpath may 
+ cause problems</B></span> </p>
+
+<p>Having duplicate JAR files in the classpath may cause exceptions to 
+ occur. Be sure to only have a single copy of each necessary JAR file in 
+ the classpath.</p>
+
+<p class="whs2">&nbsp;</p>
+
+<p class="whs2">QueryBuilder and Find results do not show 
+ when changing the CoordinateSystem after the query has been made and the 
+ dialog is still open</p>
+
+<p>Resulting records of Find and QueryBuilder are not guaranteed if the 
+ CoordinateSystem is changed <span style="font-style: italic;"><I>after</I></span> 
+ the query has been made and the dialog is still showing. A good application-level 
+ solution to this issue might be to clear the query results if CoordinateSystem 
+ has been changed. &nbsp;&nbsp;</p>
+
+<p class="whs2">&nbsp;</p>
+
+<p class="whs2">The Table of Contents &nbsp;in 
+ the Programmer’s Reference on the Macintosh only allows one topic to be 
+ opened at once</p>
+
+<p>Only one same-level topic in the table of contents of the Programmer’s 
+ Reference may be open at once. For example, there are four main topic 
+ books when you open the Programmer’s Reference. If you open one and then 
+ open another, the first topic book will automatically close. </p>
+
+<p class="whs2">&nbsp;</p>
+
+<p class="whs2">Layout View issues</p>
+
+<p>The up/down arrows on the layout element frame properties (Border, Background, 
+ Drop Shadow) may not work with single clicks. This can be resolved by 
+ holding down on the arrow for a short period of time or by manually typing 
+ in a value. This issue can also likely be resolved by using a JDK of 1.4.1 
+ or higher.</p>
+
+<p>&nbsp;</p>
+
+<p class="whs2">Macintosh issues</p>
+
+<p>During internal testing of JoViewPlus on the Macintosh (OS X with Java 
+ 1.4.1), there have been occasional crashes and segmentation faults. This 
+ has been reported and is currently in Apple's bug queue.</p>
+
+<p>Rendering of symbols. Occasionally, when using a triangle/square/star 
+ symbol to represent point data, the symbols are not rendered on the map 
+ or the toc.</p>
+
+<p>Direct printing of the layout is not supported. The Image Export UI 
+ dialog must be used to print the layout from a saved image. The printing 
+ capability is dependent on a version of Java that supports javax.print.*, 
+ and this is currently not in Apple's Java VM. The printing functionality 
+ should work as soon as Apple releases a new version of Java that supports 
+ javax.print.*.</p>
+
+<p align="right" class="whs3"><img src="to_top_image.gif" x-maintain-ratio="TRUE" width="47px" height="19px" border="0" class="img_whs4"></p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+
+</html>

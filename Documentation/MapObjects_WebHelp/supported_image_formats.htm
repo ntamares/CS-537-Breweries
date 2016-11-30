@@ -1,0 +1,556 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<!--(==============================================================)-->
+<!--(Document created with RoboEditor. )============================-->
+<!--(==============================================================)-->
+
+<head>
+
+<title>Supported data formats</title>
+
+<!--(Meta)==========================================================-->
+
+<meta http-equiv=content-type content="text/html; charset=windows-1252">
+<meta name=date content="02 13, 2002 11:02:59 AM">
+<meta name=generator content="RoboHELP by eHelp Corporation - www.ehelp.com">
+<meta name=generator-major-version content=0.1>
+<meta name=generator-minor-version content=1>
+<meta name=filetype content=kadov>
+<meta name=filetype-version content=1>
+<meta name=page-count content=1>
+<meta name=layout-height content=1483>
+<meta name=layout-width content=916>
+
+
+<!--(Links)=========================================================-->
+
+ <link rel='stylesheet' href='81HelpRev_ns.css'>
+<script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='81HelpRev.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+img_whs1 {border: none; width: 875px; height: 33px; float: none; border-style: none; border-style: none;}
+p.whs2 {font-family: Verdana, sans-serif;}
+p.whs3 {font-weight: bold; x-text-underline: normal; font-family: Verdana, sans-serif; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ }
+p.whs4 {font-family: Verdana, sans-serif; font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ }
+td.whs5 {background-color: #ffffd5;}
+p.whs6 {color: #000000;}
+-->
+</style>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+  div.WebHelpPopupMenu {position:absolute; left:0px; top:0px; z-index:4; visibility:hidden;}
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+
+<!--(Body)==========================================================-->
+
+
+<body>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Information Resources\nSupported data formats");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("mapobjects_help.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=arcinfo
+	style="text-align: left;"
+	align=left><img src="MO-Java-Banner.gif" x-maintain-ratio="TRUE" width="875px" height="33px" border="0" class="img_whs1"></p>
+
+<h1>Supported data formats</h1>
+
+<p class=whs200
+	style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">ESRI 
+ Shapefiles</p>
+
+<p>ESRI Shapefiles use a simple, nontopological format for storing the 
+ geometric location and attribute information of geographic features. You 
+ can write your own programs to create and write to Shapefiles, according 
+ to the published specification.</p>
+
+<p>The ESRI Shapefile format defines the geometry and attributes of geographically 
+ referenced features in several files with specific file extensions that 
+ are stored in the same folder on disk. These consist of a main file, an 
+ index file, and a dBASE table. The main file is a direct access, variable-record-length 
+ file in which each record describes a shape with a list of its vertices. 
+ In the index file, each record contains the offset of the corresponding 
+ main file record from the beginning of the main file. The dBASE table 
+ contains feature attributes with one record per feature. The one-to-one 
+ relationship between geometry and attributes is based on record number. 
+ Attribute records in the dBASE file are stored in the same order as records 
+ in the main file. The main file, the index file, and the dBASE file have 
+ the same prefix and the following suffixes:</p>
+
+<p>.shp<span style="font-weight: bold;"><B>&#8212;</B></span>the 
+ file that stores the feature geometry</p>
+
+<p>.shx<span style="font-weight: bold;"><B>&#8212;</B></span>the 
+ file that stores the index of the feature geometry</p>
+
+<p>.dbf<span style="font-weight: bold;"><B>&#8212;</B></span>the 
+ dBASE file that stores the attribute information of features</p>
+
+<p>ESRI provides a technical white paper called the ESRI Shapefile Technical 
+ Description that provides all the technical information necessary for 
+ creating Shapefiles without the use of MapObjects or other ESRI software. 
+ The paper is available in the Portable Document Format (PDF) from <a href="http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf">http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf</a>. 
+ ESRI also distributes paper copies of selected white papers. In the United 
+ States, call 1-800-447-9778 (1-800-GIS-XPRT) or address e-mail requests 
+ to <a href="mailto:info@esri.com">info@esri.com</a>.</p>
+
+<p class=whs200
+	style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">ArcIMS 
+ Image and Feature Services</p>
+
+<p>ArcIMS provides the foundation for distributing high-end geographic 
+ information systems (GIS) and mapping services via the Internet. ArcIMS 
+ software enables users to integrate local data sources with Internet data 
+ sources for display, query, and analysis in an easy-to-use Web browser. 
+ MapObjects can be used as a client to retrieve image and feature services 
+ from ArcIMS. </p>
+
+<p class=whs200
+	style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">ArcSDE</p>
+
+<p class=whs200
+	style="x-text-underline: off; font-weight: normal; /*begin!kadov{{*/ text-decoration: none; /*}}end!kadov*/ ">ArcSDE 
+ is a gateway that facilitates managing spatial data in a database management 
+ system and is vital in a multiuser environment. ArcSDE allows you to manage 
+ geographic information in one of four commercial databases: IBM DB2, IBM 
+ Informix, Microsoft SQL Server, and Oracle, as well as being able to serve 
+ ESRI's file-based data with ArcSDE for Coverages. MapObjects can retrieve 
+ and interact with ArcSDE layers. Through the ArcSDE Java API there is 
+ also the ability to update data.</p>
+
+<p class=whs200
+	style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Smart 
+ Data Compression (SDC)</p>
+
+<p class="whs2">Smart Data Compression is 
+ a highly compressed vector format created by ESRI that is directly readable 
+ by MapObjects<span style="font-weight: bold;"><B>&#8212;</B></span>Java 
+ at version 2.0. The SDC format advantages are high compression, fast data 
+ retrieval, map and tabular data support, and security features. The ESRI 
+ Data and Maps 2003 collection provides the vector data in SDC format. 
+ Refer to the Data and Maps documentation for more information.</p>
+
+<p class="whs3">CAD 
+ (DXF, DWG, DGN)</p>
+
+<p class="whs2"><span style="font-family: Verdana, sans-serif;">CAD 
+ layers can now be accessed as valid content, or sources, for MapObjects 
+ Layers in version 2.0. This includes annotations as well.</span></p>
+
+<p class="whs2">NOTE: DXF and DGN files are 
+ supported on all platforms. DWG is supported on Windows ONLY since it 
+ relies on native libraries.</p>
+
+<p class="whs4">Vector 
+ Product Format (VPF)</p>
+
+<p class="whs2">VPF data is a standard format, 
+ structure, and organization for large geographic databases that are based 
+ on a georelational data model. The VPF databases are the U.S. Department 
+ of Defense Military Standard. The Defense Mapping Agency (DMA) supplies 
+ VPF databases for digital vector products developed at a variety of scales. 
+ VPF has also been adopted into an international spatial standard as the 
+ Digital Geographic Information Exchange standard. This format is now readable 
+ by MapObjects—Java at version 2.0.</p>
+
+<p class="whs2">&nbsp;</p>
+
+<p>The image file formats supported by MapObjects&#8212;Java 
+ are listed below together with the world file extensions MapObjects expects 
+ for that data file. Note: The rows with a light blue background indicate 
+ the new data formats supported at version 2.</p>
+
+<p>&nbsp;</p>
+
+<!--(Table)=========================================================-->
+<div align=left>
+<table x-use-null-cells
+		wrapperparagraphselector=P
+		class=whs38
+		style="float: alignleft;
+				x-border-left: 2px table-solid;
+				x-border-top: 2px table-solid;
+				x-border-right: 2px table-solid;
+				x-border-bottom: 2px table-solid;
+				border-collapse: separate;
+				border-spacing: 0px;
+				x-border-left: 2px table-solid;
+				x-border-top: 2px table-solid;
+				x-border-right: 2px table-solid;
+				x-border-bottom: 2px table-solid;
+				border-collapse: separate;
+				border-spacing: 0px;"
+		cellspacing=0
+		border=2>
+<col>
+<col>
+<col>
+<col>
+
+<tr>
+<td class=whs39
+	style="background-color: #c6c6c6;"
+	bgcolor=#C6C6C6>
+<p class=whs40><span><b style="font-weight: bold;">Short Name</b></span></td>
+<td class=whs41
+	style="background-color: #c6c6c6;"
+	bgcolor=#C6C6C6>
+<p class=whs42><span><b style="font-weight: bold;">Descriptive Name</b></span></td>
+<td class=whs43
+	style="background-color: #c6c6c6;"
+	bgcolor=#C6C6C6>
+<p class=whs44><b style="font-weight: bold;"><span style="font-weight: bold;"><B>Image</B></span><span> 
+ File Extensions</span></b></td>
+<td class=whs45
+	style="background-color: #c6c6c6;"
+	bgcolor=#C6C6C6>
+<p class=whs46><span><b style="font-weight: bold;">World File Extensions</b></span></td></tr>
+
+<tr>
+<td class=whs77
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs78
+	style="color: #000000;">BMP</td>
+<td class=whs79
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs80
+	style="color: #000000;">Windows Bitmap</td>
+<td class=whs81
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs82
+	style="color: #000000;">&nbsp;*.bmp, *.dib</td>
+<td class=whs83
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs84
+	style="color: #000000;">&nbsp;*.bpw</td></tr>
+
+<tr>
+<td class=whs123
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs124
+	style="color: #000000;">GIF</td>
+<td class=whs125
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs126
+	style="color: #000000;">Graphics Interchange Format</td>
+<td class=whs127
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs128
+	style="color: #000000;">*.gif</td>
+<td class=whs129
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs130
+	style="color: #000000;">*.gfw</td></tr>
+
+<tr>
+<td class=whs153
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs154
+	style="color: #000000;">JFIF, JPG</td>
+<td class=whs155
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs156
+	style="color: #000000;">JPEG</td>
+<td class=whs157
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs158
+	style="color: #000000;">*.jpg</td>
+<td class=whs159
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs160
+	style="color: #000000;">*.jgw</td></tr>
+
+<tr>
+<td class=whs185
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs186
+	style="color: #000000;">TIFF+</td>
+<td class=whs187
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs188
+	style="color: #000000;">Tag Image File Format</td>
+<td class=whs189
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs190
+	style="color: #000000;">*.tiff, *.tif, *.tff</td>
+<td class=whs191
+	style="background-color: #ffffd5;"
+	bgcolor=#FFFFD5>
+<p class=whs192
+	style="color: #000000;">*.tfw</td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" bgcolor="#FFFFD5" class="whs5">
+<p class="whs6">PNG</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFD5" class="whs5">
+<p class="whs6">Portable Network Graphics</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFD5" class="whs5">
+<p class="whs6">*.png</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFD5" class="whs5">
+<p class="whs6">&nbsp;-</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>DIB</td>
+<td colspan=1
+	rowspan=1>
+<p>Device Independent Bitmap</td>
+<td colspan=1
+	rowspan=1>
+<p>*.dib</td>
+<td colspan=1
+	rowspan=1>
+<p>&nbsp;-</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>BIL</td>
+<td colspan=1
+	rowspan=1>
+<p>Band Interleaved by Line</td>
+<td colspan=1
+	rowspan=1>
+<p>*.bil</td>
+<td colspan=1
+	rowspan=1>
+<p>*.blw</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>BIP</td>
+<td colspan=1
+	rowspan=1>
+<p>Band Interleaved by Pixel</td>
+<td colspan=1
+	rowspan=1>
+<p>*.bip</td>
+<td colspan=1
+	rowspan=1>
+<p>*.bpw</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>BSQ</td>
+<td colspan=1
+	rowspan=1>
+<p>Band Sequential</td>
+<td colspan=1
+	rowspan=1>
+<p>*.bsq</td>
+<td colspan=1
+	rowspan=1>
+<p>*.bqw</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>ERDAS</td>
+<td colspan=1
+	rowspan=1>
+<p>ERDAS® GIS or LAN</td>
+<td colspan=1
+	rowspan=1>
+<p>*.gis, *.lan</td>
+<td colspan=1
+	rowspan=1>
+<p>*.gsw, *.lnw</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>IMAGINE</td>
+<td colspan=1
+	rowspan=1>
+<p>ERDAS IMAGINE®</td>
+<td colspan=1
+	rowspan=1>
+<p>*.img</td>
+<td colspan=1
+	rowspan=1>
+<p>&nbsp;-</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>MrSID++</td>
+<td colspan=1
+	rowspan=1>
+<p>Multiresolution Seamless Image Database</td>
+<td colspan=1
+	rowspan=1>
+<p>*.sid</td>
+<td colspan=1
+	rowspan=1>
+<p>*.sdw</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>SUN</td>
+<td colspan=1
+	rowspan=1>
+<p>SunRaster File</td>
+<td colspan=1
+	rowspan=1>
+<p>*.sun, *.rs, *.ras</td>
+<td colspan=1
+	rowspan=1>
+<p>&nbsp;*.snw, 
+ *.rsw</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>NITF</td>
+<td colspan=1
+	rowspan=1>
+<p>National Imagery Transfer Format</td>
+<td colspan=1
+	rowspan=1>
+<p>*.ntf</td>
+<td colspan=1
+	rowspan=1>
+<p>*.nfw</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>CADRG</td>
+<td colspan=1
+	rowspan=1>
+<p>Compressed Arc Digitized Raster Graphics</td>
+<td colspan=1
+	rowspan=1>
+<p>&nbsp;-</td>
+<td colspan=1
+	rowspan=1>
+<p>&nbsp;-</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>CIB</td>
+<td colspan=1
+	rowspan=1>
+<p>Controlled Image Base</td>
+<td colspan=1
+	rowspan=1>
+<p>&nbsp;-</td>
+<td colspan=1
+	rowspan=1>
+<p>&nbsp;-</td></tr>
+
+<tr>
+<td colspan=1
+	rowspan=1>
+<p>RLC</td>
+<td colspan=1
+	rowspan=1>
+<p>Run-Length Compressed Format</td>
+<td colspan=1
+	rowspan=1>
+<p>*.rlc</td>
+<td colspan=1
+	rowspan=1>
+<p>*.rcw</td></tr>
+</table>
+</div>
+<p class=whs200
+	style="text-align: left;"
+	align=left><b style="font-weight: bold;">+ </b>CCITT4 compressed TIFFs 
+ are not supported.<br>
+++ Windows and Solaris only.</p>
+
+<p class=whs200
+	style="text-align: left;"
+	align=left>&nbsp;</p>
+
+<p class=whs200
+	style="text-align: left;"
+	align=left>Note that native libraries for Java Advanced Imaging, MrSID, 
+ and DWG must be found on the system path for your applications to see 
+ and use these data formats and capabilities.</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+
+</html>
