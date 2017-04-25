@@ -1,0 +1,2 @@
+Longitude,Latitude,Brewery Name,Address,IPAs,Stouts,Pale Ales,Porter,Lagers,Other,Avg. ABV
+
